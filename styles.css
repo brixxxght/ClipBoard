@@ -1,0 +1,31 @@
+body {
+  font-family: "Courier New", Courier, monospace;
+  display: grid;
+  place-content: center;
+  place-items: center;
+  text-align: center;
+  min-height: 100vh;
+}
+.btns {
+  display: flex;
+  gap: 0.5rem;
+  margin-top: 1rem;
+  /* background-color: #12121212; */
+}
+
+button {
+  padding: 1rem 3rem;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  background-color: #2e2d2d;
+  color: white;
+}
+
+h1 {
+  font-size: 12px;
+  color: rgb(236, 142, 142);
+}
